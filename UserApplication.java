@@ -32,11 +32,6 @@ public class UserApplication {
         return expiryDate;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Applicant: " + applicantName + ", License Type: " + licenseType;
-//    }
-
     @Override
     public String toString() {
         return "Application ID: " + applicationID+ " | Applicant: " + applicantName + " | License Type: " + licenseType;
